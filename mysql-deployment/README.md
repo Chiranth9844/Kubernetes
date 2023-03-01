@@ -1,6 +1,7 @@
 # Deploy mysql in K8s cluster
 
-We can deploy above provided files in k8s insted of first 2 steps if in case the links are not working <hr>
+We can deploy above provided files in k8s insted of first 2 steps if in case the links are not working <br/>
+Can also refer official page https://kubernetes.io/docs/tasks/run-application/run-single-instance-stateful-application/ <hr>
 
 1. Deploy the PV and PVC of the YAML file: <br/> `kubectl apply -f https://k8s.io/examples/application/mysql/mysql-pv.yaml`
 2. Deploy the contents of the YAML file: <br/> `kubectl apply -f https://k8s.io/examples/application/mysql/mysql-deployment.yaml`
