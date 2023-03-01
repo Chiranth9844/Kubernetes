@@ -1,3 +1,5 @@
+# Deploying Grafana agent operator
+
 Deploying Grafana agent operator in kubernetes cluster by deploying above files using `kubectl apply -f [file-name]` in the order as given below
 - GrafanaAgent.yaml
 - MetricsInstance.yaml
