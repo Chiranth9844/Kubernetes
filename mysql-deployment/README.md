@@ -12,4 +12,4 @@ Can also refer official page https://kubernetes.io/docs/tasks/run-application/ru
     - `kubectl exec --stdin --tty [pod-name] -- /bin/bash`
     - `mysql -p`
     <img width="709" alt="image" src="https://user-images.githubusercontent.com/53873995/222078387-4b5e11ec-b226-4cf4-85a2-53d78de24c05.png">
-
+7. Get out of the bash cmd using `exit` command
