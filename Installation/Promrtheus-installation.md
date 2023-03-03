@@ -13,7 +13,7 @@ We need kinikube, kubectl and helm pre-installed to setup prometheus
 3. Update the repo <br/>
     `helm repo update`
 4. Install charts <br/>
-    `helm install prometheus prometheus-community/prometheus`
+    `helm install prometheus prometheus-community/kube-prometheus-stack`
 5. get the status with <br/>
     `kubectl get all`
 6. to see available services<br/>
