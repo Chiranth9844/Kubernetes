@@ -41,3 +41,10 @@
   - `$ kubectl expose (-f FILENAME | TYPE NAME) [--port=port] [--protocol=TCP|UDP|SCTP] [--target-port=number-or-name] [--name=name] [--external-ip=external-ip-of-service] [--type=type]`<br/>
     Eg : `kubectl expose deployment example --port=8765 --target-port=9376 \ --name=example-service --type=LoadBalancer`<br/>
   
+## port forward(for my reference)
+
+- kubectl port-forward deployment/prometheus-grafana -n mysql 3000
+- kubectl port-forward svc/prometheus-operated -n mysql 9090:9090
+
+## update exsisting helm parameters
+- helm upgrade bitnami/mysql -n mysql --set metrics.enabled=true --reuse-values
