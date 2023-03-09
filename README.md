@@ -43,8 +43,8 @@
   
 ## port forward(for my reference)
 
-- `kubectl port-forward deployment/prometheus-grafana -n mysql 3000`
-- `kubectl port-forward svc/prometheus-operated -n mysql 9090:9090`
+- `kubectl port-forward deployment/prometheus-grafana -n prom 3000`
+- `kubectl port-forward svc/prometheus-operated -n prom 9090:9090`
 - verifying mysql metrics <br/>
   `kubectl port-forward pod/<mysql-pod-name> 9104:9104`
 
