@@ -10,6 +10,6 @@ Can also refer official page https://kubernetes.io/docs/tasks/run-application/ru
 5. Inspect the PersistentVolumeClaim: <br/> `kubectl describe pvc mysql-pv-claim`
 6. Accessing the MySQL instance: 
     - `kubectl exec --stdin --tty [pod-name] -- /bin/bash`
-    - `mysql -p` OR `mysql -u root`
+    - `mysql -p` OR `mysql -u root -p`
     <img width="709" alt="image" src="https://user-images.githubusercontent.com/53873995/222078387-4b5e11ec-b226-4cf4-85a2-53d78de24c05.png">
 7. Get out of the bash cmd using `exit` command
